@@ -1,0 +1,25 @@
+{
+  "name": "rjstest",
+  "description": "testing r.js optimization",
+  "main": "index.js",
+  "authors": [
+    "Zuhaib Zakaria <zzakaria@vmware.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.22",
+    "jquery": "~2.2.0",
+    "underscore": "~1.8.3",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.9"
+  }
+}

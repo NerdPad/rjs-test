@@ -1,0 +1,12 @@
+# Directories
+node_modules
+bower_components
+public
+
+
+# Types
+.DS_Store
+.idea
+
+# npm files
+npm-debug.log

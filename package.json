@@ -1,0 +1,19 @@
+{
+  "name": "rjstest",
+  "version": "1.0.0",
+  "description": "testing r.js optimization",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "bower install",
+    "start": "http-server src",
+    "bundle": "node node_modules/.bin/r.js -o build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "http-server": "^0.8.5",
+    "requirejs": "^2.1.22"
+  }
+}
